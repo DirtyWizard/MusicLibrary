@@ -1,0 +1,276 @@
+<?xml version = "1.0" ?>
+<xs:schema xmlns:xs= "http://www.w3.org/2001/XMLSchema">
+
+	<xs:element name = "MusicData" type = "MusicType">
+
+		<xs:key name = "artistID">
+			<xs:selector xpath = "Artist"/>
+			<xs:field xpath = "artistID"/>
+		</xs:key>
+
+		<xs:key name = "ArtistName">
+			<xs:selector xpath = "Artist"/>
+			<xs:field xpath = "artistID"/>
+		</xs:key>
+
+		<xs:key name = "Formed">
+			<xs:selector xpath = "Artist"/>
+			<xs:field xpath = "artistID"/>
+		</xs:key>
+
+		<xs:key name = "Genre">
+			<xs:selector xpath = "Artist"/>
+			<xs:field xpath = "artistID"/>
+		</xs:key>
+
+		<xs:key name = "Origin">
+			<xs:selector xpath = "Artist"/>
+			<xs:field xpath = "artistID"/>
+		</xs:key>
+
+		<xs:key name = "AlbumID">
+			<xs:selector xpath = "Album"/>
+			<xs:field xpath = "AlbumID"/>
+		</xs:key>
+
+		<xs:key name = "AlbumName">
+			<xs:selector xpath = "Album"/>
+			<xs:field xpath = "AlbumID"/>
+		</xs:key>
+
+		<xs:key name = "AlbumYear">
+			<xs:selector xpath = "Album"/>
+			<xs:field xpath = "AlbumID"/>
+		</xs:key>
+
+		<xs:key name = "AlbumLength">
+			<xs:selector xpath = "Album"/>
+			<xs:field xpath = "AlbumID"/>
+		</xs:key>
+
+		<xs:keyref name = "Album_Artist_ID" refer = "artistID">
+			<xs:selector xpath = "Album"/>
+			<xs:field xpath = "artistID"/>
+		</xs:keyref>
+
+		<xs:key name = "AwardID">
+			<xs:selector xpath = "Awards"/>
+			<xs:field xpath = "AwardID"/>
+		</xs:key>
+
+		<xs:key name = "Ceremony">
+			<xs:selector xpath = "Awards"/>
+			<xs:field xpath = "AwardID"/>
+		</xs:key>
+
+		<xs:key name = "AwardName">
+			<xs:selector xpath = "Awards"/>
+			<xs:field xpath = "AwardID"/>
+		</xs:key>
+
+		<xs:key name = "AwardYear">
+			<xs:selector xpath = "Awards"/>
+			<xs:field xpath = "AwardID"/>
+		</xs:key>
+
+		<xs:keyref name = "Awards_Artist_ID" refer = "artistID">
+			<xs:selector xpath = "Awards"/>
+			<xs:field xpath = "artistID"/>
+		</xs:keyref>
+
+		<xs:key name = "ConcertID">
+			<xs:selector xpath = "Concert"/>
+			<xs:field xpath = "ConcertID"/>
+		</xs:key>
+
+		<xs:key name = "Tour">
+			<xs:selector xpath = "Concert"/>
+			<xs:field xpath = "ConcertID"/>
+		</xs:key>
+
+		<xs:key name = "Venue">
+			<xs:selector xpath = "Concert"/>
+			<xs:field xpath = "ConcertID"/>
+		</xs:key>
+
+		<xs:key name = "Location">
+			<xs:selector xpath = "Concert"/>
+			<xs:field xpath = "ConcertID"/>
+		</xs:key>
+
+		<xs:key name = "Date">
+			<xs:selector xpath = "Concert"/>
+			<xs:field xpath = "ConcertID"/>
+		</xs:key>
+
+		<xs:key name = "MemID">
+			<xs:selector xpath = "Members"/>
+			<xs:field xpath = "MemID"/>
+		</xs:key>
+
+		<xs:key name = "MemName">
+			<xs:selector xpath = "Members"/>
+			<xs:field xpath = "MemID"/>
+		</xs:key>
+
+		<xs:key name = "Age">
+			<xs:selector xpath = "Members"/>
+			<xs:field xpath = "MemID"/>
+		</xs:key>
+
+		<xs:key name = "Role">
+			<xs:selector xpath = "Members"/>
+			<xs:field xpath = "MemID"/>
+		</xs:key>
+
+		<xs:key name = "Birth_Place">
+			<xs:selector xpath = "Members"/>
+			<xs:field xpath = "MemID"/>
+		</xs:key>
+
+		<xs:keyref name = "Mem_Artist_ID" refer = "artistID">
+			<xs:selector xpath = "Members"/>
+			<xs:field xpath = "artistID"/>
+		</xs:keyref>
+
+		<xs:keyref name = "Performed_Artist_ID" refer = "artistID">
+			<xs:selector xpath = "Performed"/>
+			<xs:field xpath = "artistID"/>
+		</xs:keyref>
+	
+
+		<xs:keyref name = "Performed_Concert_ID" refer = "ConcertID">
+			<xs:selector xpath = "Performed"/>
+			<xs:field xpath = "ConcertID"/>
+		</xs:keyref>
+
+		<xs:key name = "SongID">
+			<xs:selector xpath = "Songs"/>
+			<xs:field xpath = "SongID"/>
+		</xs:key>
+
+		<xs:key name = "SongName">
+			<xs:selector xpath = "Songs"/>
+			<xs:field xpath = "SongID"/>
+		</xs:key>
+
+		<xs:key name = "SongYear">
+			<xs:selector xpath = "Songs"/>
+			<xs:field xpath = "SongID"/>
+		</xs:key>
+
+		<xs:key name = "SongLength">
+			<xs:selector xpath = "Songs"/>
+			<xs:field xpath = "SongID"/>
+		</xs:key>
+
+		<xs:keyref name = "Song_Album_ID" refer = "AlbumID">
+			<xs:selector xpath = "Songs"/>
+			<xs:field xpath = "AlbumID"/>
+		</xs:keyref>
+
+		<xs:keyref name = "Song_Artist_ID" refer = "artistID">
+			<xs:selector xpath = "Songs"/>
+			<xs:field xpath = "artistID"/>
+		</xs:keyref>
+
+	</xs:element>
+
+	<xs:complexType name = "MusicType">
+		<xs:sequence>
+			<xs:element ref =  "Artist" minOccurs = "0" maxOccurs = "unbounded"/>
+			<xs:element ref =  "Album" minOccurs = "0" maxOccurs = "unbounded"/>
+			<xs:element ref =  "Awards" minOccurs = "0" maxOccurs = "unbounded"/>
+			<xs:element ref =  "Concert" minOccurs = "0" maxOccurs = "unbounded"/>
+			<xs:element ref =  "Members" minOccurs = "0" maxOccurs = "unbounded"/>
+			<xs:element ref =  "Performed" minOccurs = "0" maxOccurs = "unbounded"/>
+			<xs:element ref =  "Songs" minOccurs = "0" maxOccurs = "unbounded"/>
+
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:element name = "Artist">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name = "artistID" type = "xs:int"/>
+				<xs:element name = "ArtistName" type = "xs:string"/>
+				<xs:element name = "Formed" type = "xs:int"/>
+				<xs:element name = "Genre" type = "xs:string"/>
+				<xs:element name = "Origin" type = "xs:string"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name = "Album">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name = "AlbumID" type = "xs:int"/>
+				<xs:element name = "AlbumName" type = "xs:string"/>
+				<xs:element name = "AlbumYear" type = "xs:int"/>
+				<xs:element name = "AlbumLength" type = "xs:time"/>
+				<xs:element name = "Album_Artist_ID" type = "xs:int"/>			
+
+ 			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name = "Awards">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name = "AwardID" type = "xs:int"/>
+				<xs:element name = "Ceremony" type = "xs:string"/>
+				<xs:element name = "AwardName" type = "xs:string"/>
+				<xs:element name = "AwardYear" type = "xs:int"/>
+				<xs:element name = "Awards_Artist_ID" type = "xs:int"/>			
+ 			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name = "Concert">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name = "ConcertID" type = "xs:int"/>
+				<xs:element name = "Tour" type = "xs:string"/>
+				<xs:element name = "Venue" type = "xs:string"/>
+				<xs:element name = "Location" type = "xs:string"/>
+				<xs:element name = "Date" type = "xs:date"/>			
+ 			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name = "Members">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name = "MemID" type = "xs:int"/>
+				<xs:element name = "MemName" type = "xs:string"/>
+				<xs:element name = "Age" type = "xs:int"/>
+				<xs:element name = "Role" type = "xs:string"/>
+				<xs:element name = "Birth_Place" type = "xs:string"/>
+				<xs:element name = "Mem_Artist_ID" type = "xs:int"/>			
+ 			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name = "Performed">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name = "Performed_Artist_ID" type = "xs:int"/>
+				<xs:element name = "Performed_Concert_ID" type = "xs:int"/>
+			
+ 			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name = "Songs">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name = "SongID" type = "xs:int"/>
+				<xs:element name = "SongName" type = "xs:string"/>
+				<xs:element name = "SongYear" type = "xs:int"/>
+				<xs:element name = "SongLength" type = "xs:time"/>
+				<xs:element name = "Song_Album_ID" type = "xs:int"/>
+				<xs:element name = "Song_Artist_ID" type = "xs:int"/>			
+ 			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

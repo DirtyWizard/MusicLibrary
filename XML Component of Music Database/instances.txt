@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MusicData>
+
+<Artist>
+	<artistID>1</artistID>
+	<ArtistName>Rise Against</ArtistName>
+	<Formed>1999</Formed>
+	<Genre>Rock</Genre>
+	<Origin>USA</Origin>
+
+</Artist>
+
+<Artist>
+	<artistID>2</artistID>
+	<ArtistName>Bring Me the Horizon</ArtistName>
+	<Formed>2004</Formed>
+	<Genre>Rock</Genre>
+	<Origin>United Kingdom</Origin>
+
+</Artist>
+
+<Artist>
+	<artistID>3</artistID>
+	<ArtistName>Kid Cudi</ArtistName>
+	<Formed>2008</Formed>
+	<Genre>Rap</Genre>
+	<Origin>USA</Origin>
+
+</Artist>
+
+<Artist>
+	<artistID>4</artistID>
+	<ArtistName>Rush</ArtistName>
+	<Formed>1968</Formed>
+	<Genre>Rock</Genre>
+	<Origin>Canada</Origin>
+</Artist>
+
+<Artist>
+	<artistID>5</artistID>
+	<ArtistName>Porter Robinson</ArtistName>
+	<Formed>2014</Formed>
+	<Genre>EDM</Genre>
+	<Origin>USA</Origin>
+
+</Artist>
+
+<Artist>
+	<artistID>6</artistID>
+	<ArtistName>Beyonce</ArtistName>
+	<Formed>1997</Formed>
+	<Genre>RnB</Genre>
+	<Origin>USA</Origin>
+
+</Artist>
+
+<Artist>
+	<artistID>7</artistID>
+	<ArtistName>ABBA</ArtistName>
+	<Formed>1972</Formed>
+	<Genre>Pop</Genre>
+	<Origin>Sweden</Origin>
+
+</Artist>
+
+<Artist>
+	<artistID>8</artistID>
+	<ArtistName>Lady Gaga</ArtistName>
+	<Formed>2005</Formed>
+	<Genre>Pop</Genre>
+	<Origin>USA</Origin>
+
+</Artist>
+
+<Artist>
+	<artistID>9</artistID>
+	<ArtistName>The Weeknd</ArtistName>
+	<Formed>2010</Formed>
+	<Genre>RnB</Genre>
+	<Origin>Canada</Origin>
+
+</Artist>
+
+
+<Artist>
+	<artistID>10</artistID>
+	<ArtistName>The Beatles</ArtistName>
+	<Formed>1960</Formed>
+	<Genre>Rock</Genre>
+	<Origin>United Kingdom</Origin>
+
+</Artist>
+
+<Album>
+	<AlbumID>1</AlbumID>
+	<AlbumName>Siren Song of the Counter Culture</AlbumName>
+	<AlbumYear>1960</AlbumYear>
+	<AlbumLength>00:40:54</AlbumLength>
+	<Album_Artist_ID>1</Album_Artist_ID>
+
+</Album>
+
+<Album>
+	<AlbumID>2</AlbumID>
+	<AlbumName>Sempiternal</AlbumName>
+	<AlbumYear>2013</AlbumYear>
+	<AlbumLength>00:44:11</AlbumLength>
+	<Album_Artist_ID>2</Album_Artist_ID>
+
+</Album>
+
+
+<Album>
+	<AlbumID>3</AlbumID>
+	<AlbumName>Man on the Moon: End of Day</AlbumName>
+	<AlbumYear>2009</AlbumYear>
+	<AlbumLength>00:58:33</AlbumLength>
+	<Album_Artist_ID>3</Album_Artist_ID>
+
+</Album>
+
+<Album>
+	<AlbumID>4</AlbumID>
+	<AlbumName>Moving Pictures</AlbumName>
+	<AlbumYear>1981</AlbumYear>
+	<AlbumLength>00:40:03</AlbumLength>
+	<Album_Artist_ID>4</Album_Artist_ID>
+
+</Album>
+
+<Album>
+	<AlbumID>5</AlbumID>
+	<AlbumName>Worlds</AlbumName>
+	<AlbumYear>2014</AlbumYear>
+	<AlbumLength>00:57:49</AlbumLength>
+	<Album_Artist_ID>5</Album_Artist_ID>
+
+</Album>
+
+<Album>
+	<AlbumID>6</AlbumID>
+	<AlbumName>Dangerously in Love</AlbumName>
+	<AlbumYear>2003</AlbumYear>
+	<AlbumLength>01:00:52</AlbumLength>
+	<Album_Artist_ID>6</Album_Artist_ID>
+
+</Album>
+
+<Album>
+	<AlbumID>7</AlbumID>
+	<AlbumName>ABBA</AlbumName>
+	<AlbumYear>1975</AlbumYear>
+	<AlbumLength>00:36:06</AlbumLength>
+	<Album_Artist_ID>7</Album_Artist_ID>
+
+</Album>
+
+<Album>
+	<AlbumID>8</AlbumID>
+	<AlbumName>Born This Way</AlbumName>
+	<AlbumYear>2011</AlbumYear>
+	<AlbumLength>01:01:08</AlbumLength>
+	<Album_Artist_ID>8</Album_Artist_ID>
+
+</Album>
+
+<Album>
+	<AlbumID>9</AlbumID>
+	<AlbumName>Starboy</AlbumName>
+	<AlbumYear>2016</AlbumYear>
+	<AlbumLength>01:08:40</AlbumLength>
+	<Album_Artist_ID>9</Album_Artist_ID>
+
+</Album>
+
+<Album>
+	<AlbumID>10</AlbumID>
+	<AlbumName>A Hard Day's Night</AlbumName>
+	<AlbumYear>1964</AlbumYear>
+	<AlbumLength>00:30:13</AlbumLength>
+	<Album_Artist_ID>10</Album_Artist_ID>
+
+</Album>
+
+<Awards>
+	<AwardID>1</AwardID>
+	<Ceremony>Academy Awards</Ceremony>
+	<AwardName>Best Music</AwardName>
+	<AwardYear>1971</AwardYear>
+	<Awards_Artist_ID>10</Awards_Artist_ID>
+
+</Awards>
+
+
+<Awards>
+	<AwardID>2</AwardID>
+	<Ceremony>BPI Awards</Ceremony>
+	<AwardName>British Album</AwardName>
+	<AwardYear>1977</AwardYear>
+	<Awards_Artist_ID>10</Awards_Artist_ID>
+
+</Awards>
+
+<Awards>
+	<AwardID>3</AwardID>
+	<Ceremony>Billboard Awards</Ceremony>
+	<AwardName>Hot 100 Award for Most Weeks at No.1</AwardName>
+	<AwardYear>2003</AwardYear>
+	<Awards_Artist_ID>6</Awards_Artist_ID>
+
+</Awards>
+
+<Awards>
+	<AwardID>4</AwardID>
+	<Ceremony>Kerrang! Awards</Ceremony>
+	<AwardName>Best British Newcomer</AwardName>
+	<AwardYear>2006</AwardYear>
+	<Awards_Artist_ID>2</Awards_Artist_ID>
+
+</Awards>
+
+
+<Awards>
+	<AwardID>5</AwardID>
+	<Ceremony>American Music Awards</Ceremony>
+	<AwardName>Favourite Pop/Rock Female Artist</AwardName>
+	<AwardYear>2010</AwardYear>
+	<Awards_Artist_ID>8</Awards_Artist_ID>
+
+</Awards>
+
+<Awards>
+	<AwardID>6</AwardID>
+	<Ceremony>Juno Awards</Ceremony>
+	<AwardName>Group of the Year</AwardName>
+	<AwardYear>1975</AwardYear>
+	<Awards_Artist_ID>4</Awards_Artist_ID>
+
+</Awards>
+
+<Awards>
+	<AwardID>7</AwardID>
+	<Ceremony>Billboard Awards</Ceremony>
+	<AwardName>Top Female Artist</AwardName>
+	<AwardYear>2017</AwardYear>
+	<Awards_Artist_ID>6</Awards_Artist_ID>
+
+</Awards>
+
+
+<Awards>
+	<AwardID>8</AwardID>
+	<Ceremony>Bravo Otto Awards</Ceremony>
+	<AwardName>Silver Award-Pop Group</AwardName>
+	<AwardYear>1978</AwardYear>
+	<Awards_Artist_ID>7</Awards_Artist_ID>
+
+</Awards>
+
+
+<Awards>
+	<AwardID>9</AwardID>
+	<Ceremony>American Music Awards</Ceremony>
+	<AwardName>Favourite Soul/RnB Album</AwardName>
+	<AwardYear>2015</AwardYear>
+	<Awards_Artist_ID>9</Awards_Artist_ID>
+
+</Awards>
+
+<Awards>
+	<AwardID>10</AwardID>
+	<Ceremony>Juno Awards</Ceremony>
+	<AwardName>Album of the Year</AwardName>
+	<AwardYear>2016</AwardYear>
+	<Awards_Artist_ID>9</Awards_Artist_ID>
+
+</Awards>
+
+<Concert>
+	<ConcertID>1</ConcertID>
+	<Tour>European Tour</Tour>
+	<Venue>Harpa</Venue>
+	<Location>Reykjavic</Location>
+	<Date>2017-10-23</Date>
+
+</Concert>
+
+<Concert>
+	<ConcertID>2</ConcertID>
+	<Tour>That's the Spirit</Tour>
+	<Venue>Sheffield Arena</Venue>
+	<Location>Sheffield</Location>
+	<Date>2016-11-06</Date>
+
+</Concert>
+
+<Concert>
+	<ConcertID>3</ConcertID>
+	<Tour>Kid Cudi</Tour>
+	<Venue>Centennial Park</Venue>
+	<Location>Sydney</Location>
+	<Date>2010-02-13</Date>
+
+</Concert>
+
+<Concert>
+	<ConcertID>4</ConcertID>
+	<Tour>Moving Pictures Tour</Tour>
+	<Venue>Hampton Colliseum</Venue>
+	<Location>Hampton</Location>
+	<Date>1980-09-11</Date>
+
+</Concert>
+
+<Concert>
+	<ConcertID>5</ConcertID>
+	<Tour>Coachella</Tour>
+	<Venue>Empire Grounds</Venue>
+	<Location>Indio</Location>
+	<Date>2017-04-23</Date>
+
+</Concert>
+
+<Concert>
+	<ConcertID>6</ConcertID>
+	<Tour>The Verizon Ladies First Tour</Tour>
+	<Venue>Philips Arena</Venue>
+	<Location>Atlanta</Location>
+	<Date>2018-03-28</Date>
+
+</Concert>
+
+<Concert>
+	<ConcertID>7</ConcertID>
+	<Tour>European and Australian Tour</Tour>
+	<Venue>Apollo Theatre</Venue>
+	<Location>Glasgow</Location>
+	<Date>1977-02-12</Date>
+
+</Concert>
+
+
+<Concert>
+	<ConcertID>8</ConcertID>
+	<Tour>Lady Gaga</Tour>
+	<Venue>Scottrade Center</Venue>
+	<Location>St.Louis</Location>
+	<Date>2008-11-10</Date>
+
+</Concert>
+
+<Concert>
+	<ConcertID>9</ConcertID>
+	<Tour>Starboy: Legend of the Fall</Tour>
+	<Venue>United Center</Venue>
+	<Location>Chicago</Location>
+	<Date>2017-11-02</Date>
+
+</Concert>
+
+<Concert>
+	<ConcertID>10</ConcertID>
+	<Tour>North American Tour 1996</Tour>
+	<Venue>Shea Stadium</Venue>
+	<Location>New York</Location>
+	<Date>1966-08-23</Date>
+
+</Concert>
+
+<Members>
+	<MemID>1</MemID>
+	<MemName>Tim McIIrath</MemName>
+	<Age>39</Age>
+	<Role>Vocalist</Role>
+	<Birth_Place>Chicago</Birth_Place>
+	<Mem_Artist_ID>1</Mem_Artist_ID>
+
+</Members>
+
+<Members>
+	<MemID>2</MemID>
+	<MemName>Joe Principe</MemName>
+	<Age>43</Age>
+	<Role>Bassist</Role>
+	<Birth_Place>Downers Grove</Birth_Place>
+	<Mem_Artist_ID>1</Mem_Artist_ID>
+
+</Members>
+
+<Members>
+	<MemID>3</MemID>
+	<MemName>Oliver Sykes</MemName>
+	<Age>31</Age>
+	<Role>Vocalist</Role>
+	<Birth_Place>Sheffield</Birth_Place>
+	<Mem_Artist_ID>2</Mem_Artist_ID>
+
+</Members>
+
+<Members>
+	<MemID>4</MemID>
+	<MemName>Beyonce Giselle Knowles</MemName>
+	<Age>36</Age>
+	<Role>Vocalist</Role>
+	<Birth_Place>Houston</Birth_Place>
+	<Mem_Artist_ID>6</Mem_Artist_ID>
+
+</Members>
+
+<Members>
+	<MemID>5</MemID>
+	<MemName>Scott Mescudi</MemName>
+	<Age>34</Age>
+	<Role>Vocalist</Role>
+	<Birth_Place>Cleveland</Birth_Place>
+	<Mem_Artist_ID>3</Mem_Artist_ID>
+
+</Members>
+
+<Members>
+	<MemID>6</MemID>
+	<MemName>Porter Robinson</MemName>
+	<Age>25</Age>
+	<Role>DJ</Role>
+	<Birth_Place>Atlanta</Birth_Place>
+	<Mem_Artist_ID>5</Mem_Artist_ID>
+
+</Members>
+
+<Members>
+	<MemID>7</MemID>
+	<MemName>Neil Peart</MemName>
+	<Age>65</Age>
+	<Role>Drummer</Role>
+	<Birth_Place>Hamilton</Birth_Place>
+	<Mem_Artist_ID>4</Mem_Artist_ID>
+
+</Members>
+
+<Members>
+	<MemID>8</MemID>
+	<MemName>Alexandar Zivojinovich</MemName>
+	<Age>64</Age>
+	<Role>Guitarist</Role>
+	<Birth_Place>Fernie</Birth_Place>
+	<Mem_Artist_ID>4</Mem_Artist_ID>
+
+</Members>
+
+<Members>
+	<MemID>9</MemID>
+	<MemName>Agnetha Faltskog</MemName>
+	<Age>67</Age>
+	<Role>Vocalist</Role>
+	<Birth_Place>Stockholm</Birth_Place>
+	<Mem_Artist_ID>7</Mem_Artist_ID>
+
+</Members>
+
+
+<Members>
+	<MemID>10</MemID>
+	<MemName>Stefani Germanotta</MemName>
+	<Age>31</Age>
+	<Role>Vocalist</Role>
+	<Birth_Place>New York City</Birth_Place>
+	<Mem_Artist_ID>8</Mem_Artist_ID>
+
+</Members>
+
+
+<Members>
+	<MemID>11</MemID>
+	<MemName>Abel Tesfaye</MemName>
+	<Age>28</Age>
+	<Role>Vocalist</Role>
+	<Birth_Place>Toronto</Birth_Place>
+	<Mem_Artist_ID>9</Mem_Artist_ID>
+
+</Members>
+
+<Members>
+	<MemID>12</MemID>
+	<MemName>Paul McCartney</MemName>
+	<Age>75</Age>
+	<Role>Vocalist</Role>
+	<Birth_Place>Liverpool</Birth_Place>
+	<Mem_Artist_ID>10</Mem_Artist_ID>
+
+</Members>
+
+<Performed>
+	<Performed_Artist_ID>1</Performed_Artist_ID>
+	<Performed_Concert_ID>1</Performed_Concert_ID>
+</Performed>
+
+<Performed>
+	<Performed_Artist_ID>2</Performed_Artist_ID>
+	<Performed_Concert_ID>2</Performed_Concert_ID>
+</Performed>
+
+<Performed>
+	<Performed_Artist_ID>3</Performed_Artist_ID>
+	<Performed_Concert_ID>3</Performed_Concert_ID>
+</Performed>
+
+<Performed>
+	<Performed_Artist_ID>4</Performed_Artist_ID>
+	<Performed_Concert_ID>4</Performed_Concert_ID>
+</Performed>
+
+<Performed>
+	<Performed_Artist_ID>5</Performed_Artist_ID>
+	<Performed_Concert_ID>5</Performed_Concert_ID>
+</Performed>
+
+<Performed>
+	<Performed_Artist_ID>6</Performed_Artist_ID>
+	<Performed_Concert_ID>6</Performed_Concert_ID>
+</Performed>
+
+<Performed>
+	<Performed_Artist_ID>7</Performed_Artist_ID>
+	<Performed_Concert_ID>7</Performed_Concert_ID>
+</Performed>
+<Performed>
+	<Performed_Artist_ID>8</Performed_Artist_ID>
+	<Performed_Concert_ID>8</Performed_Concert_ID>
+</Performed>
+<Performed>
+	<Performed_Artist_ID>9</Performed_Artist_ID>
+	<Performed_Concert_ID>9</Performed_Concert_ID>
+</Performed>
+<Performed>
+	<Performed_Artist_ID>10</Performed_Artist_ID>
+	<Performed_Concert_ID>10</Performed_Concert_ID>
+</Performed>
+
+<Songs>
+	<SongID>1</SongID>
+	<SongName>State of the Union</SongName>
+	<SongYear>2004</SongYear>
+	<SongLength>00:02:19</SongLength>
+	<Song_Album_ID>1</Song_Album_ID>
+	<Song_Artist_ID>1</Song_Artist_ID>
+
+</Songs>
+
+<Songs>
+	<SongID>2</SongID>
+	<SongName>The First Drop</SongName>
+	<SongYear>2004</SongYear>
+	<SongLength>00:02:39</SongLength>
+	<Song_Album_ID>1</Song_Album_ID>
+	<Song_Artist_ID>1</Song_Artist_ID>
+
+</Songs>
+<Songs>
+	<SongID>3</SongID>
+	<SongName>Shadow Moses</SongName>
+	<SongYear>2013</SongYear>
+	<SongLength>00:04:03</SongLength>
+	<Song_Album_ID>2</Song_Album_ID>
+	<Song_Artist_ID>2</Song_Artist_ID>
+
+</Songs>
+
+<Songs>
+	<SongID>4</SongID>
+	<SongName>Day'n' Nite</SongName>
+	<SongYear>2009</SongYear>
+	<SongLength>00:03:41</SongLength>
+	<Song_Album_ID>3</Song_Album_ID>
+	<Song_Artist_ID>3</Song_Artist_ID>
+
+</Songs>
+
+
+<Songs>
+	<SongID>5</SongID>
+	<SongName>Limelight</SongName>
+	<SongYear>1981</SongYear>
+	<SongLength>00:04:26</SongLength>
+	<Song_Album_ID>4</Song_Album_ID>
+	<Song_Artist_ID>4</Song_Artist_ID>
+
+</Songs>
+
+<Songs>
+	<SongID>6</SongID>
+	<SongName>Sad Machine</SongName>
+	<SongYear>2014</SongYear>
+	<SongLength>00:05:50</SongLength>
+	<Song_Album_ID>5</Song_Album_ID>
+	<Song_Artist_ID>5</Song_Artist_ID>
+
+</Songs>
+<Songs>
+	<SongID>7</SongID>
+	<SongName>Crazy in Love</SongName>
+	<SongYear>2003</SongYear>
+	<SongLength>00:03:56</SongLength>
+	<Song_Album_ID>6</Song_Album_ID>
+	<Song_Artist_ID>6</Song_Artist_ID>
+
+</Songs>
+<Songs>
+	<SongID>8</SongID>
+	<SongName>Dancing Queen</SongName>
+	<SongYear>1976</SongYear>
+	<SongLength>00:03:50</SongLength>
+	<Song_Album_ID>7</Song_Album_ID>
+	<Song_Artist_ID>7</Song_Artist_ID>
+
+</Songs>
+
+<Songs>
+	<SongID>9</SongID>
+	<SongName>Born This Way</SongName>
+	<SongYear>2011</SongYear>
+	<SongLength>00:04:20</SongLength>
+	<Song_Album_ID>8</Song_Album_ID>
+	<Song_Artist_ID>8</Song_Artist_ID>
+
+</Songs>
+
+<Songs>
+	<SongID>10</SongID>
+	<SongName>Starboy</SongName>
+	<SongYear>2016</SongYear>
+	<SongLength>00:03:50</SongLength>
+	<Song_Album_ID>9</Song_Album_ID>
+	<Song_Artist_ID>9</Song_Artist_ID>
+
+</Songs>
+
+
+<Songs>
+	<SongID>11</SongID>
+	<SongName>Can't Buy ME Love</SongName>
+	<SongYear>1964</SongYear>
+	<SongLength>00:02:11</SongLength>
+	<Song_Album_ID>10</Song_Album_ID>
+	<Song_Artist_ID>10</Song_Artist_ID>
+
+</Songs>
+</MusicData>
+

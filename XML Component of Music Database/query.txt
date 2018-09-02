@@ -1,0 +1,142 @@
+
+
+Query 1
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:template match="/">
+<html> 
+<body>
+  <h2> Artist and Songs </h2>
+  <table border="1">
+    <tr bgcolor="#9acd32">
+      <th style="text-align:left">Artist</th>
+      <th style="text-align:left">Genre</th>
+    </tr>
+    <xsl:for-each select="MusicData/Artist">
+    <tr>
+
+       <td><xsl:value-of select="ArtistName"/></td>
+       <td><xsl:value-of select="Genre"/></td>
+    </tr>
+    </xsl:for-each>
+  </table>
+</body>
+</html>
+</xsl:template>
+</xsl:stylesheet>
+
+Query 2
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:template match="/">
+<html> 
+<body>
+  <h2> Artist and Album </h2>
+  <table border="1">
+    <tr bgcolor="#9acd32">
+      <th style="text-align:left">Artist</th>
+      <th style="text-align:left">Album</th>
+    </tr>
+    <xsl:for-each select="MusicData/Artist">
+    <tr>
+       <xsl:variable name="t" select="artistID"/>
+       <xsl:variable name="p" select="//MusicData/Album[Album_Artist_ID=$t]"/>
+       <td><xsl:value-of select="ArtistName"/></td>
+       <td><xsl:value-of select="$p/AlbumName"/></td>
+    </tr>
+    </xsl:for-each>
+  </table>
+</body>
+</html>
+</xsl:template>
+</xsl:stylesheet>
+
+Query 3
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:template match="/">
+<html> 
+<body>
+  <h2> Members with Age Above 40</h2>
+  <table border="1">
+    <tr bgcolor="#9acd32">
+      <th style="text-align:left">Member</th>
+      <th style="text-align:left">Age</th>
+    </tr>
+    <xsl:for-each select="MusicData/Members">
+    <tr>
+       <xsl:if test= "Age > 40">
+       <td><xsl:value-of select="MemName"/></td>
+       <td><xsl:value-of select="Age"/></td>
+       </xsl:if>
+    </tr>
+    </xsl:for-each>
+  </table>
+</body>
+</html>
+</xsl:template>
+</xsl:stylesheet>
+
+Query 4
+
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:template match="/">
+<html> 
+<body>
+  <h2> Artist and Songs </h2>
+  <table border="1">
+    <tr bgcolor="#9acd32">
+      <th style="text-align:left">Artist</th>
+      <th style="text-align:left">Songs</th>
+    </tr>
+    <xsl:for-each select="MusicData/Songs">
+    <tr>
+       <xsl:variable name="t" select="Song_Artist_ID"/>
+       <xsl:variable name="p" select="//MusicData/Artist[artistID=$t]"/>
+       <xsl:if test = "$p/ArtistName ='Rise Against'">
+       <td><xsl:value-of select="$p/ArtistName"/></td>
+       <td><xsl:value-of select="SongName"/></td>
+       </xsl:if>
+    </tr>
+    </xsl:for-each>
+  </table>
+</body>
+</html>
+</xsl:template>
+</xsl:stylesheet>
+
+Query 5
+
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:template match="/">
+<html> 
+<body>
+  <h2> Artist and Awards </h2>
+  <table border="1">
+    <tr bgcolor="#9acd32">
+      <th style="text-align:left">Artist</th>
+      <th style="text-align:left">Award</th>
+    </tr>
+    <xsl:for-each select="MusicData/Awards">
+    <tr>
+       <xsl:variable name="t" select="Awards_Artist_ID"/>
+       <xsl:variable name="p" select="//MusicData/Artist[artistID=$t]"/>
+     
+       <td><xsl:value-of select="$p/ArtistName"/></td>
+       <td><xsl:value-of select="Ceremony"/></td>
+      
+    </tr>
+    </xsl:for-each>
+  </table>
+</body>
+</html>
+</xsl:template>
+</xsl:stylesheet>
